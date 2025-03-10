@@ -8,7 +8,7 @@ import net.bytebuddy.utility.JavaModule;
 
 import java.lang.instrument.Instrumentation;
 
-// javac -cp /Users/sunjifeng/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar com/javaagent/*/*.java
+// javac -cp /Users/sunjifeng/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar com/javaagent/agent4/*.java
 // jar cfm premain4.jar com/javaagent/agent4/MANIFEST.MF com/javaagent/agent4/*.class
 public class Agent {
     public static void premain(String agentArgs, Instrumentation inst) {
